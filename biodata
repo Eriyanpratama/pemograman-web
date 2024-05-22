@@ -1,0 +1,37 @@
+#include<stdio.h>
+
+char main()
+{
+    char nama[30], npm[10], jurusan[25], fakultas[25], kota_asal[15], alamat[25];
+    
+   printf("INPUT BIODATA MAHASISWA\n");
+   printf("=====================\n");
+   
+   printf("MASUKKAN NAMA ANDA         : ");
+   gets(nama);
+   printf("\nMASUKKAN  NPM    : ");
+   gets(npm);
+   printf("\nMASUKKAN  JURUSAN     : ");
+   gets(jurusan);
+   printf("\nMASUKKAN FAKULTAS            : ");
+   gets(fakultas);
+   printf("\nMASUKKAN KOTA ASAL          : ");
+   gets(kota_asal);
+   printf("\nMASUKKAN ALAMAT          : ");
+   gets(alamat);
+   printf("\n");
+   
+   puts("====================");
+   puts("      BIODATA");
+   puts("====================");
+   puts("                     ");
+   
+   printf("\nNAMA           : %s",nama);
+   printf("\nNPM :  %s",npm);
+   printf("\nJURUSAN  : %s",jurusan);
+   printf("\nFAKULTAS         : %s",fakultas);
+   printf("\nKOTA ASAL   : %s",kota_asal);
+printf("\nALAMAT   : %s",alamat);
+   
+   
+}
